@@ -1,3 +1,3 @@
-output "s3-bucket-arn" {
-    value = "${aws_s3_bucket.single_bucket.arn}" 
+output "s3_bucket_arn" {
+    value = "${aws_s3_bucket.single-bucket.arn}" 
 }
